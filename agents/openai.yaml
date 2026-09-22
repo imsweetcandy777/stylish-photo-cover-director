@@ -1,0 +1,14 @@
+interface:
+  display_name: 格调封面导演
+  short_description: 上传照片和主题，先选风格，再确认文案与项目，生成高级感封面海报
+  default_prompt: 使用 $direct-stylish-photo-covers 分析我上传的照片和主题，先给我四种封面方向。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+
+policy:
+  products:
+    - chatgpt
+    - codex
+    - api
+    - atlas
+  allow_implicit_invocation: true
